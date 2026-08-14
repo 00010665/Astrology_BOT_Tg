@@ -1,0 +1,65 @@
+{
+  "entries": [
+    {
+      "relPath": "src/bot/astrology_service.py",
+      "language": "py",
+      "symbols": [
+        "AstrologyService"
+      ],
+      "imports": [
+        "requests",
+        "typing"
+      ]
+    },
+    {
+      "relPath": "src/bot/handlers.py",
+      "language": "py",
+      "symbols": [
+        "start_command_handler",
+        "test_command_handler",
+        "register_handlers"
+      ],
+      "imports": [
+        "aiogram",
+        "aiogram.filters"
+      ]
+    },
+    {
+      "relPath": "src/bot/main.py",
+      "language": "py",
+      "symbols": [
+        "main",
+        "Scheduler",
+        "send_daily_horoscope"
+      ],
+      "imports": [
+        "asyncio",
+        "os",
+        "datetime",
+        "aiogram",
+        "aiogram.filters",
+        "aiogram.client.default",
+        "aiogram.utils.keyboard",
+        "src.bot.handlers",
+        "src.bot.services"
+      ]
+    },
+    {
+      "relPath": "src/bot/services.py",
+      "language": "py",
+      "symbols": [
+        "AstrologizeService",
+        "TextTransformService"
+      ],
+      "imports": [
+        "aiohttp",
+        "random"
+      ]
+    }
+  ],
+  "totalFiles": 6,
+  "indexedFiles": 4,
+  "method": "regex",
+  "generatedAt": 1786149499851,
+  "merkleRoot": "90091c798614d10b628a01525ec1c44c91e0f9a0b6a6150c35cf06e501962c34"
+}
